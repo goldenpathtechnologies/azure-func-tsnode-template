@@ -8,7 +8,7 @@
     "url": "https://github.com/goldenpathtechnologies"
   },
   "license": "MIT",
-  "private": "true",
+  "private": true,
   "scripts": {
     "build": "npm run clean && tsc --project tsconfig.build.json",
     "watch": "npm run clean && tsc -w --project tsconfig.build.json",
